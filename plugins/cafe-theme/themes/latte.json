@@ -1,0 +1,59 @@
+{
+  "name": "Café Latte",
+  "base": "light",
+  "overrides": {
+    "claude": "#C96442",
+    "claudeShimmer": "#DE8A68",
+    "clawd_body": "#C96442",
+    "briefLabelClaude": "#C96442",
+    "briefLabelYou": "#8C5A3C",
+
+    "text": "#3B2A20",
+    "inverseText": "#FBF5EE",
+    "inactive": "#8A7262",
+    "inactiveShimmer": "#A89080",
+    "subtle": "#D9C8B8",
+
+    "promptBorder": "#A88468",
+    "promptBorderShimmer": "#C4A288",
+    "bashBorder": "#B5683C",
+    "ide": "#8C6A4E",
+
+    "permission": "#8C5A3C",
+    "permissionShimmer": "#B07C5C",
+    "suggestion": "#8C5A3C",
+    "remember": "#8C5A3C",
+    "autoAccept": "#A0605A",
+    "autoAcceptShimmer": "#BE827C",
+    "skill": "#A0605A",
+    "planMode": "#5E7A4E",
+    "merged": "#8A6450",
+    "effortUltra": "#B87A3A",
+    "background": "#A0704C",
+
+    "claudeBlue_FOR_SYSTEM_SPINNER": "#8C5A3C",
+    "claudeBlueShimmer_FOR_SYSTEM_SPINNER": "#B07C5C",
+
+    "success": "#5E7A3A",
+    "error": "#B23A2E",
+    "warning": "#A9741C",
+    "warningShimmer": "#C9944C",
+
+    "diffAdded": "#D8E3C2",
+    "diffRemoved": "#F2CFC6",
+    "diffAddedDimmed": "#E8EDDD",
+    "diffRemovedDimmed": "#F5E2DC",
+    "diffAddedWord": "#6B8E3A",
+    "diffRemovedWord": "#C0503F",
+
+    "userMessageBackground": "#EFE3D6",
+    "userMessageBackgroundHover": "#E6D5C4",
+    "composerSidebarBackground": "#F5ECE2",
+    "bashMessageBackgroundColor": "#EADBD0",
+    "memoryBackgroundColor": "#E8DFD3",
+    "selectionBg": "#E3C9AE",
+
+    "rate_limit_fill": "#C96442",
+    "rate_limit_empty": "#E6D5C4"
+  }
+}

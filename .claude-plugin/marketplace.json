@@ -1,0 +1,14 @@
+{
+  "name": "fefo-mods",
+  "owner": {
+    "name": "fefo-gith"
+  },
+  "description": "Mods para a interface do Claude Code.",
+  "plugins": [
+    {
+      "name": "cafe-theme",
+      "source": "./plugins/cafe-theme",
+      "description": "Temas marrom café que combinam com o laranja do Claude: Espresso (escuro) e Latte (claro)."
+    }
+  ]
+}
