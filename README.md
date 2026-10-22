@@ -11,9 +11,27 @@ Temas marrom café que combinam com o laranja do Claude.
 - **Café Espresso**: escuro, com texto creme, bordas caramelo e acentos em areia e terracota
 - **Café Latte**: claro, com fundo creme e texto marrom espresso
 
-### Instalar
+### Mac: um comando só (Claude Code + Terminal)
 
-No Claude Code:
+1. Feche o Claude Code, se estiver aberto.
+2. Abra o app **Terminal** e cole:
+
+```
+curl -fsSL https://raw.githubusercontent.com/fefo-gith/mods/HEAD/install-mac.sh | bash
+```
+
+3. Abra o Claude Code de novo com `claude`.
+
+O instalador:
+
+- copia o tema para `~/.claude/themes/cafe-espresso.json` e deixa o Café Espresso como tema padrão do Claude Code (guarda uma cópia da sua config em `~/.claude.json.antes-do-cafe`)
+- cria o perfil **Cafe Espresso** no Terminal (fundo `#1E1510`, texto creme, cursor laranja) e o define como padrão para todas as janelas
+
+Para voltar ao normal: no Claude Code, `/theme` → Dark mode; no Terminal, Ajustes → Perfis → escolha outro perfil e clique em Padrão.
+
+### Via plugin
+
+Dentro do Claude Code:
 
 ```
 /plugin marketplace add fefo-gith/mods
@@ -21,16 +39,3 @@ No Claude Code:
 ```
 
 Depois abra `/theme` e escolha **Café Espresso** ou **Café Latte**.
-
-### Sem plugin
-
-Copie o arquivo do tema para a sua pasta de temas e escolha-o em `/theme`:
-
-```
-mkdir -p ~/.claude/themes
-curl -o ~/.claude/themes/espresso.json https://raw.githubusercontent.com/fefo-gith/mods/main/plugins/cafe-theme/themes/espresso.json
-```
-
-> O tema muda as cores que o Claude Code desenha (texto, bordas, diffs, mensagens, status).
-> A cor de fundo da janela é do seu terminal: para o visual completo, use um fundo marrom
-> bem escuro, como `#1E1510` (Espresso) ou `#FBF5EE` (Latte).
